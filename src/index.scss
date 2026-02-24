@@ -64,7 +64,7 @@ $rounded-pill: 50rem  !default;
   }
 
   img {
-    height: 1.5rem;
+    height: 2.5rem;
   }
 }
 
@@ -82,15 +82,13 @@ $rounded-pill: 50rem  !default;
     box-sizing: content-box;
     position: relative;
     top: -.05em;
-    height: 60px;
-    padding: 0.5rem 0;
-    //padding: var(--pgn-spacing-spacer-base, $spacer) 0;
+    height: 3.75rem;
+    padding: var(--pgn-spacing-spacer-base, $spacer) 0;
     margin-right: var(--pgn-spacing-spacer-base, $spacer);
 
     img {
-      //display: block;
-      height: 60px;
-      width: auto;
+      display: block;
+      height: 100%;
     }
   }
   .secondary-menu-container {
