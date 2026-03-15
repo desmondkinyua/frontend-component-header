@@ -82,13 +82,13 @@ $rounded-pill: 50rem  !default;
     box-sizing: content-box;
     position: relative;
     top: -.05em;
-    height: 4rem;
+    height: 3rem;
     padding: var(--pgn-spacing-spacer-base, $spacer) 0;
     margin-right: var(--pgn-spacing-spacer-base, $spacer);
 
     img {
       display: block;
-      height: 3.75rem !important;
+      height: 2.75rem !important;
       width: auto;
     }
   }
