@@ -33,6 +33,22 @@ $rounded-pill: 50rem  !default;
 .learning-header {
   min-width: 0;
 
+  .logo {
+    display: block;
+    box-sizing: content-box;
+    position: relative;
+    top: -.05em;
+    height: 6rem;
+    padding: var(--pgn-spacing-spacer-base, $spacer) 0;
+    margin-right: var(--pgn-spacing-spacer-base, $spacer);
+
+    img {
+      display: block;
+      height: 5.75rem !important;
+      width: auto;
+    }
+  }
+  
   .course-title-lockup {
     min-width: 0;
 
